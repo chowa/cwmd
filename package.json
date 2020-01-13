@@ -1,0 +1,77 @@
+{
+  "name": "cwmd",
+  "version": "1.0.0",
+  "description": "markdown document generation tool based on react-chowa",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint src/*.ts",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chowa/cwmd.git"
+  },
+  "keywords": [
+    "markdown",
+    "webpack",
+    "react",
+    "react-chowa",
+    "md"
+  ],
+  "author": "xuecong8226@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chowa/cwmd/issues"
+  },
+  "homepage": "https://github.com/chowa/cwmd#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.8.0",
+    "@babel/plugin-transform-runtime": "^7.8.0",
+    "@babel/polyfill": "^7.8.0",
+    "@babel/preset-env": "^7.8.2",
+    "@babel/preset-react": "^7.8.0",
+    "@babel/runtime": "^7.8.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "js-yaml": "^3.13.1",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "react": "^16.12.0",
+    "react-chowa": "^1.0.3",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "remark": "^11.0.2",
+    "sass-loader": "^8.0.1",
+    "style-loader": "^1.1.2",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-merge": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/copy-webpack-plugin": "^5.0.0",
+    "@types/friendly-errors-webpack-plugin": "^0.1.2",
+    "@types/html-webpack-plugin": "^3.2.1",
+    "@types/js-yaml": "^3.12.1",
+    "@types/mini-css-extract-plugin": "^0.9.0",
+    "@types/node": "^13.1.6",
+    "@types/webpack": "^4.41.2",
+    "@types/webpack-dev-server": "^3.9.0",
+    "@types/webpack-merge": "^4.1.5",
+    "babel-plugin-chowa-import": "^1.0.0",
+    "eslint-plugin-chowa-standard": "^1.0.6",
+    "stylelint-plugin-chowa-standard": "^1.0.6"
+  }
+}

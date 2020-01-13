@@ -1,6 +1,7 @@
 import * as webpack from 'webpack';
 import * as webpackDevServer from 'webpack-dev-server';
 import * as webpackMerge from 'webpack-merge';
+import * as cwlog from 'chowa-log';
 import webpackConfig from './webpack-config';
 import options from './options';
 
@@ -12,7 +13,7 @@ export function exec() {
         }
     });
 
-    const server = new webpackDevServer(webpack(webpackConfig), {
+    const server = new webpackDevServer(webpack(config), {
         contentBase: options.distPath,
         open: true,
         hot: true,
@@ -20,5 +21,9 @@ export function exec() {
         historyApiFallback: true,
         overlay: true,
         stats: 'errors-only'
+    });
+
+    server.listen(options.port, options.host, () => {
+        cwlog.info(`Preview server has been started at ${options.host}:${options.port}`);
     });
 }

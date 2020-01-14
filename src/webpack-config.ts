@@ -10,6 +10,7 @@ const webpackConfig: webpack.Configuration = {
     entry: {
         app: path.join(options.compilePath, 'index.js'),
         vender: [
+            'chowa',
             'react',
             'react-dom',
             'react-router-dom',
@@ -17,7 +18,6 @@ const webpackConfig: webpack.Configuration = {
             'classnames',
             'react-copy-to-clipboard',
             'prismjs',
-            'react-chowa',
             'moment',
             'react-dnd-html5-backend',
             'resize-observer-polyfill'

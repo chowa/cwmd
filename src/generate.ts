@@ -1,5 +1,5 @@
-import * as webpack from 'webpack';
-import * as webpackMerge from 'webpack-merge';
+import webpack from 'webpack';
+import webpackMerge from 'webpack-merge';
 import * as cwlog from 'chowa-log';
 import webpackConfig from './webpack-config';
 

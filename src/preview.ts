@@ -1,6 +1,6 @@
-import * as webpack from 'webpack';
-import * as webpackDevServer from 'webpack-dev-server';
-import * as webpackMerge from 'webpack-merge';
+import webpack from 'webpack';
+import webpackDevServer from 'webpack-dev-server';
+import webpackMerge from 'webpack-merge';
 import * as cwlog from 'chowa-log';
 import webpackConfig from './webpack-config';
 import options from './options';

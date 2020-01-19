@@ -1,9 +1,9 @@
 import * as path from 'path';
-import * as webpack from 'webpack';
-import * as FriendlyErrorsWebpackPlugin from 'friendly-errors-webpack-plugin';
-import * as MiniCssExtractPlugin from 'mini-css-extract-plugin';
-import * as HtmlWebpackPlugin from 'html-webpack-plugin';
-import * as CopyWebpackPlugin from 'copy-webpack-plugin';
+import webpack from 'webpack';
+import FriendlyErrorsWebpackPlugin from 'friendly-errors-webpack-plugin';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 import options from './options';
 
 const webpackConfig: webpack.Configuration = {

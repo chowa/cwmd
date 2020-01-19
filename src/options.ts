@@ -1,5 +1,6 @@
 const options = {
-    root: '',
+    siteName: 'chowa markdown',
+    rootPath: '',
     compilePath: '.cwmd',
     distPath: 'docs',
     port: 10666,
